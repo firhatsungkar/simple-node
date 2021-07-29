@@ -1,9 +1,12 @@
 # Overview
-This is a very simple, bare-bones NodeJS project created for you to use with Docker.
+This is a very simple, bare-bones NodeJS and ExpressJS project created for you to use with Docker.
 
 # Local Setup
 * Install dependencies: `npm install`
 * Run server: `node server.js`
+
+# Usage
+By default, the application should be loaded on `localhost:8080`. It should provide an HTTP 200 response when loaded at `localhost:8080/health`.
 
 # Container Setup
 * Build image: `docker build .`
